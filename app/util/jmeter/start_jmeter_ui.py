@@ -36,6 +36,7 @@ CONFLUENCE_JMX = APP_DIR / "jmeter" / "confluence.jmx"
 BITBUCKET_JMX = APP_DIR / "jmeter" / "bitbucket.jmx"
 JSM_JMX_AGENTS = APP_DIR / "jmeter" / "jsm_agents.jmx"
 JSM_JMX_CUSTOMERS = APP_DIR / "jmeter" / "jsm_customers.jmx"
+# JMETER_HOME = Path() / '/Users/ntowne/repos/atlassian/dc-app-performance-toolkit/app/venv/lib/python3.10/site-packages/bzt' / 'jmeter-taurus'
 JMETER_HOME = Path().home() / '.bzt' / 'jmeter-taurus'
 WINDOWS = "Windows"
 DEFAULT_HOSTNAMES = ['test_jira_instance.atlassian.com',
